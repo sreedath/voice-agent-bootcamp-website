@@ -1,0 +1,184 @@
+================================================================================
+INDIVIDUAL COURSES
+================================================================================
+
+
+--------------------------------------------------------------------------------
+1. Build Voice Agents From Scratch [Foundations]
+URL: https://vizuara.ai/courses/build-voice-agents-from-scratch-foundations
+Price: ₹55,000
+--------------------------------------------------------------------------------
+
+The Foundations course is an 8-day intensive live bootcamp that teaches you how
+to build production-grade voice agents from scratch. Over 8 days of 2-3 hour
+live sessions, you'll go from zero to building a complete real-time voice agent
+that can listen, reason, and speak — using ASR, TTS, LLMs, tool calling, memory,
+and streaming pipelines. This course is for engineers, developers, and AI/ML
+practitioners who want to understand how voice agents work under the hood
+rather than relying on black-box frameworks. You'll cover the full stack:
+Speech-to-Text with Whisper and faster-whisper, Text-to-Speech with Piper and
+Coqui TTS, voice activity detection with Silero VAD, LLM reasoning for spoken
+interactions, tool calling and memory for agentic behavior, real-time streaming
+with WebSockets, production architecture, and a final end-to-end capstone
+project. Every concept is taught from scratch — no hand-waving — by Dr. Sreedath
+Panat (MIT PhD, IIT Madras gold medalist, co-author of the Manning bestseller
+"Build DeepSeek from Scratch"). You receive code files, hand-written notes,
+slides, visual guides, PDF booklets, assignments, interactive quizzes, lifetime
+access to the live Zoom recordings, and a certificate of completion with a
+project showcase page. By the end of the bootcamp, you'll be able to build
+real-time, tool-using voice agents like AI receptionists, meeting assistants,
+research assistants, and desktop voice assistants — and you'll deeply understand
+every component, which makes you far more effective even when using high-level
+frameworks like Pipecat or LiveKit later.
+
+
+--------------------------------------------------------------------------------
+2. Build Voice Agents From Scratch [Research Starter Kit]
+URL: https://vizuara.ai/courses/build-voice-agents-from-scratch-research-starter-kit
+Price: ₹15,000
+--------------------------------------------------------------------------------
+
+The Research Starter Kit is designed to give you a head start on your voice AI
+research journey — without forcing you to start from scratch. You tell us your
+topic of interest in voice AI (ASR optimization, low-latency TTS, voice agent
+memory systems, streaming architectures, on-device voice AI, or any other
+direction), and we deliver a personalized research roadmap and the foundation
+for your first research paper. The kit includes a Personalised Research Roadmap
+PDF — an 8-week structured plan with milestones, deliverables, and acceptance
+criteria tailored to your specific area of interest; an Initial Research Paper
+Draft with research questions framed, methodology outlined, related work
+surveyed, and experiment setup defined; a Curated Paper Reading List of 12-15
+handpicked papers relevant to your topic with a recommended reading order and
+key takeaways; and a Starter Code Template with documentation and pipeline
+scaffolding for your voice AI research project, ready to extend with your own
+experiments. Everything is delivered asynchronously, so you can hit the ground
+running from day one without waiting for scheduled sessions. The Research
+Starter Kit is the perfect companion for students, early-career researchers,
+and engineers who want to explore voice AI as a research field but don't know
+where to begin or how to structure their first paper.
+
+
+--------------------------------------------------------------------------------
+3. Build Voice Agents From Scratch [Research Mentorship]
+URL: https://vizuara.ai/courses/build-voice-agents-from-scratch-research-mentorship
+Price: ₹95,000
+--------------------------------------------------------------------------------
+
+The Research Mentorship is a fully asynchronous, 3-month guided research program
+designed to take you from a research idea to a publishable paper in voice AI.
+Unlike traditional mentorship programs that rely on scheduled calls, this
+program is built around personalized async feedback at every stage of your
+research — so you can work at your own pace and across any timezone. You receive
+guidance on research topic selection, literature review, experiment design,
+ablation studies, paper writing, and submission strategy. Your mentor walks you
+through every step of the research process so you never feel stuck. The goal is
+clear: a publishable research paper that you can submit to top venues. The
+program includes Industry + Research Exposure where you get both career strategy
+and deep research guidance; Paper Reading Guidance with curated reading lists,
+paper discussions, and feedback on extracting insights from the literature; and
+Actionable Next Steps where every interaction ends with clear deliverables and
+deadlines. This mentorship is ideal for students preparing for graduate school,
+researchers who want to break into voice AI as a research domain, and engineers
+looking to publish their first paper in the field. You'll be guided by mentors
+who have deep expertise in voice AI, speech systems, and academic research — and
+you can see examples of our published research at
+https://research.vizuara.ai/publications.
+
+
+================================================================================
+BUNDLES
+================================================================================
+
+
+--------------------------------------------------------------------------------
+4. Build Voice Agents From Scratch [Foundations + Research Starter Kit]
+URL: https://vizuara.ai/course-bundle/build-voice-agents-from-scratch-foundations-research-starter-kit
+Price: ₹60,000  (save ₹10,000 vs. buying individually)
+--------------------------------------------------------------------------------
+
+This bundle combines the 8-day Foundations bootcamp with the Research Starter
+Kit, giving you both the engineering depth to build production-grade voice
+agents and the research foundation to start exploring voice AI as an academic
+field. You get everything in the Foundations bootcamp — 8 days of live
+instruction, code files, notes, slides, lifetime recording access, and a
+certificate — plus the personalized research roadmap, initial paper draft,
+curated reading list, and starter code template from the Research Starter Kit.
+This is the ideal package for engineers and students who want to do more than
+just build voice agents in production — they also want to publish a paper, apply
+to graduate programs, or pivot their career toward voice AI research. By
+bundling these two together, you save ₹10,000 compared to buying them
+separately, and you get a coherent path from "I can build voice agents" to
+"I have a research direction and the foundation for my first paper" in a single
+purchase.
+
+
+--------------------------------------------------------------------------------
+5. Build Voice Agents From Scratch [Foundations + Research Mentorship]
+URL: https://vizuara.ai/course-bundle/build-voice-agents-from-scratch-foundations-research-mentorship
+Price: ₹1,25,000  (save ₹25,000 vs. buying individually)
+--------------------------------------------------------------------------------
+
+This bundle pairs the 8-day Foundations bootcamp with the 3-month asynchronous
+Research Mentorship, giving you both deep engineering expertise and long-term
+research guidance from a mentor who will help you publish your first paper. You
+get everything in the Foundations bootcamp — 8 days of live instruction, all
+materials, lifetime recording access, and a certificate — plus 3 months of
+personalized async feedback on your research project, from topic selection
+through experiments and ablation studies to a publication-ready manuscript. This
+is the right bundle for engineers and aspiring researchers who want to deeply
+understand how voice agents work and then immediately put that knowledge into
+publishable research output. Bundling these two together saves you ₹25,000
+compared to buying them separately, and creates a structured 4-month path from
+"learning how voice agents work" to "having a paper draft ready for submission."
+Perfect for students applying to PhD programs, engineers transitioning into
+research roles, or anyone who wants to make a meaningful contribution to the
+voice AI field beyond just building products.
+
+
+--------------------------------------------------------------------------------
+6. Build Voice Agents From Scratch [Research Starter Kit + Research Mentorship]
+URL: https://vizuara.ai/course-bundle/build-voice-agents-from-scratch-research-kit-mentorship
+Price: ₹1,00,000  (save ₹10,000 vs. buying individually)
+--------------------------------------------------------------------------------
+
+This bundle is the pure research track — designed for learners who already have
+strong engineering fundamentals in voice AI and want to focus exclusively on
+producing a publishable research paper. It combines the Research Starter Kit
+with the 3-month asynchronous Research Mentorship, giving you both the
+structured starting point and the long-term guidance to take a research project
+from idea to submission. You begin with the personalised research roadmap,
+initial paper draft, curated reading list, and starter code template from the
+Research Starter Kit — so you immediately know what to read, what to build, and
+where your research is headed. Then the 3-month Research Mentorship layers on
+personalised async feedback at every stage: literature review, experiment
+design, ablation studies, paper writing, and submission strategy. You save
+₹10,000 compared to buying these two offerings separately. This bundle is ideal
+for graduate students, PhD applicants, and researchers who don't need the full
+8-day Foundations bootcamp because they already understand the engineering
+side, but want a structured path to their first publication in voice AI.
+
+
+--------------------------------------------------------------------------------
+7. Build Voice Agents From Scratch [Foundations + Research Starter Kit + Mentorship]
+URL: https://vizuara.ai/course-bundle/build-voice-agents-from-scratch-foundations-research-kit-mentorship
+Price: ₹1,30,000  (save ₹35,000 vs. buying individually) — BEST VALUE
+--------------------------------------------------------------------------------
+
+The complete package — and the best value of any bundle. This includes the full
+8-day Foundations bootcamp, the Research Starter Kit, and the 3-month Research
+Mentorship, giving you the most comprehensive end-to-end voice AI learning
+experience available. You start by building the engineering foundation: 8 days
+of intensive live instruction on ASR, TTS, LLMs, streaming, tool calling, and
+agentic workflows. Then you accelerate into research with the Research Starter
+Kit, which gives you a personalized roadmap, initial paper draft, curated
+reading list, and starter code — so you don't waste time figuring out where to
+begin. Finally, the 3-month Research Mentorship provides structured async
+guidance to take that initial draft all the way to a publishable paper, with
+personalized feedback on every iteration. You save ₹35,000 compared to buying
+the three offerings individually — making this the best-value option for anyone
+serious about a career in voice AI as both an engineer and a researcher. This
+bundle is ideal for ambitious students, PhD applicants, career switchers
+targeting research roles, and engineers who want to become recognized experts
+in voice AI. By the end of this 4-month journey, you'll have built a complete
+voice agent from scratch, structured your first research project, and produced
+a paper draft ready for submission to a top venue.

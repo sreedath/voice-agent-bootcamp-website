@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <linearGradient id="brandDiag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9565FF" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#ED4FCA" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <circle cx="1000" cy="360" r="500" fill="url(#orb)"/>
+
+  <g transform="translate(80, 180)">
+    <rect width="170" height="32" rx="16" fill="#ede5ff"/>
+    <text x="85" y="21" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#9565FF">MOST POPULAR</text>
+  </g>
+
+  <text x="80" y="290" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#1d1d1f" letter-spacing="-2">1:1 Research</text>
+  <text x="80" y="368" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="url(#brand)" letter-spacing="-2">Mentorship.</text>
+
+  <text x="80" y="430" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#6e6e73">3 months async · From idea to publishable paper</text>
+
+  <!-- Bullet features -->
+  <g transform="translate(80, 480)">
+    <circle cx="8" cy="8" r="4" fill="#ED4FCA"/>
+    <text x="24" y="13" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Target: publishable paper</text>
+
+    <circle cx="8" cy="42" r="4" fill="#ED4FCA"/>
+    <text x="24" y="47" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Personalised feedback at every stage</text>
+
+    <circle cx="8" cy="76" r="4" fill="#ED4FCA"/>
+    <text x="24" y="81" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Literature review · experiments · writing</text>
+
+    <circle cx="8" cy="110" r="4" fill="#ED4FCA"/>
+    <text x="24" y="115" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Actionable next steps every week</text>
+  </g>
+
+  <text x="80" y="660" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#86868b">Mentored by <tspan font-weight="700" fill="#1d1d1f">Dr. Sreedath Panat</tspan> · MIT PhD · Vizuara AI Labs</text>
+
+  <!-- Right side: Graduation cap + paper visual -->
+  <g transform="translate(870, 220)">
+    <!-- Big circle backdrop -->
+    <circle cx="180" cy="180" r="170" fill="none" stroke="url(#brandDiag)" stroke-width="3" opacity="0.18"/>
+    <circle cx="180" cy="180" r="130" fill="none" stroke="url(#brandDiag)" stroke-width="3" opacity="0.3"/>
+
+    <!-- Graduation cap -->
+    <g transform="translate(80, 60)">
+      <!-- Cap top -->
+      <polygon points="100,0 200,40 100,80 0,40" fill="url(#brandDiag)"/>
+      <polygon points="100,0 200,40 100,80 0,40" fill="none" stroke="#1d1d1f" stroke-width="2"/>
+      <!-- Cap base -->
+      <path d="M 30 60 Q 30 110 100 110 Q 170 110 170 60 L 170 75 Q 170 130 100 130 Q 30 130 30 75 Z" fill="#1d1d1f"/>
+      <!-- Tassel -->
+      <line x1="200" y1="40" x2="225" y2="80" stroke="#F76E35" stroke-width="3"/>
+      <circle cx="225" cy="85" r="6" fill="#F76E35"/>
+      <line x1="225" y1="91" x2="223" y2="115" stroke="#F76E35" stroke-width="2"/>
+      <line x1="225" y1="91" x2="227" y2="115" stroke="#F76E35" stroke-width="2"/>
+    </g>
+
+    <!-- Paper underneath -->
+    <g transform="translate(50, 200)">
+      <rect x="0" y="0" width="260" height="160" rx="12" fill="#ffffff" stroke="#e8e8ed" stroke-width="2"/>
+      <rect x="0" y="0" width="260" height="32" rx="12" fill="url(#brand)"/>
+      <rect x="0" y="20" width="260" height="12" fill="url(#brand)"/>
+      <text x="20" y="22" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">RESEARCH PAPER</text>
+
+      <rect x="20" y="56" width="180" height="6" rx="3" fill="#1d1d1f"/>
+      <rect x="20" y="74" width="220" height="4" rx="2" fill="#d2d2d7"/>
+      <rect x="20" y="86" width="200" height="4" rx="2" fill="#d2d2d7"/>
+      <rect x="20" y="98" width="210" height="4" rx="2" fill="#d2d2d7"/>
+      <rect x="20" y="110" width="180" height="4" rx="2" fill="#d2d2d7"/>
+      <rect x="20" y="122" width="160" height="4" rx="2" fill="#d2d2d7"/>
+      <rect x="20" y="138" width="60" height="6" rx="3" fill="#9565FF"/>
+    </g>
+  </g>
+
+  <rect x="0" y="710" width="1280" height="10" fill="url(#brand)"/>
+</svg>

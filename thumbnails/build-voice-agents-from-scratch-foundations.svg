@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <linearGradient id="brandDiag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9565FF" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#4B9EFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <circle cx="1000" cy="360" r="500" fill="url(#orb)"/>
+
+  <!-- Vizuara logo (simplified 8-petal flower) -->
+  <!-- Top label -->
+  <g transform="translate(80, 180)">
+    <rect width="170" height="32" rx="16" fill="#ede5ff"/>
+    <text x="85" y="21" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#9565FF">CORE PROGRAM</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="80" y="290" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#1d1d1f" letter-spacing="-2">Build Voice Agents</text>
+  <text x="80" y="368" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="url(#brand)" letter-spacing="-2">From Scratch.</text>
+
+  <!-- Foundations badge -->
+  <g transform="translate(80, 410)">
+    <rect width="220" height="44" rx="8" fill="#1d1d1f"/>
+    <text x="110" y="29" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="1">FOUNDATIONS</text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="80" y="490" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#6e6e73">8-day live bootcamp · ASR · TTS · LLMs · Streaming</text>
+
+  <!-- Stat row -->
+  <g transform="translate(80, 540)">
+    <text x="0" y="30" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="url(#brand)">8</text>
+    <text x="0" y="55" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#86868b">DAYS</text>
+
+    <text x="140" y="30" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="url(#brand)">2-3h</text>
+    <text x="140" y="55" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#86868b">PER DAY</text>
+
+    <text x="320" y="30" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="url(#brand)">1</text>
+    <text x="320" y="55" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#86868b">CAPSTONE</text>
+  </g>
+
+  <!-- Instructor -->
+  <text x="80" y="660" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#86868b">Taught by <tspan font-weight="700" fill="#1d1d1f">Dr. Sreedath Panat</tspan> · MIT PhD</text>
+
+  <!-- Right-side waveform visual -->
+  <g transform="translate(820, 280)">
+    <!-- Microphone circle -->
+    <circle cx="180" cy="120" r="120" fill="none" stroke="url(#brandDiag)" stroke-width="3" opacity="0.25"/>
+    <circle cx="180" cy="120" r="90" fill="none" stroke="url(#brandDiag)" stroke-width="3" opacity="0.4"/>
+    <circle cx="180" cy="120" r="60" fill="url(#brandDiag)"/>
+    <!-- Mic icon -->
+    <rect x="168" y="92" width="24" height="38" rx="12" fill="#ffffff"/>
+    <path d="M 152 124 Q 152 144 180 144 Q 208 144 208 124" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <line x1="180" y1="144" x2="180" y2="158" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Waveform bars -->
+    <g transform="translate(0, 270)">
+      <rect x="0" y="14" width="6" height="12" rx="3" fill="#4B9EFF"/>
+      <rect x="14" y="6" width="6" height="28" rx="3" fill="#4B9EFF"/>
+      <rect x="28" y="2" width="6" height="36" rx="3" fill="#9565FF"/>
+      <rect x="42" y="10" width="6" height="20" rx="3" fill="#9565FF"/>
+      <rect x="56" y="0" width="6" height="40" rx="3" fill="#9565FF"/>
+      <rect x="70" y="8" width="6" height="24" rx="3" fill="#ED4FCA"/>
+      <rect x="84" y="4" width="6" height="32" rx="3" fill="#ED4FCA"/>
+      <rect x="98" y="12" width="6" height="16" rx="3" fill="#ED4FCA"/>
+      <rect x="112" y="2" width="6" height="36" rx="3" fill="#F76E35"/>
+      <rect x="126" y="8" width="6" height="24" rx="3" fill="#F76E35"/>
+      <rect x="140" y="0" width="6" height="40" rx="3" fill="#F76E35"/>
+      <rect x="154" y="6" width="6" height="28" rx="3" fill="#F76E35"/>
+      <rect x="168" y="14" width="6" height="12" rx="3" fill="#ED4FCA"/>
+      <rect x="182" y="4" width="6" height="32" rx="3" fill="#9565FF"/>
+      <rect x="196" y="10" width="6" height="20" rx="3" fill="#9565FF"/>
+      <rect x="210" y="2" width="6" height="36" rx="3" fill="#4B9EFF"/>
+      <rect x="224" y="12" width="6" height="16" rx="3" fill="#4B9EFF"/>
+      <rect x="238" y="6" width="6" height="28" rx="3" fill="#4B9EFF"/>
+      <rect x="252" y="14" width="6" height="12" rx="3" fill="#4B9EFF"/>
+      <rect x="266" y="0" width="6" height="40" rx="3" fill="#9565FF"/>
+      <rect x="280" y="8" width="6" height="24" rx="3" fill="#9565FF"/>
+      <rect x="294" y="4" width="6" height="32" rx="3" fill="#ED4FCA"/>
+      <rect x="308" y="14" width="6" height="12" rx="3" fill="#ED4FCA"/>
+      <rect x="322" y="6" width="6" height="28" rx="3" fill="#F76E35"/>
+      <rect x="336" y="12" width="6" height="16" rx="3" fill="#F76E35"/>
+    </g>
+  </g>
+
+  <!-- Brand gradient bar at bottom -->
+  <rect x="0" y="710" width="1280" height="10" fill="url(#brand)"/>
+</svg>

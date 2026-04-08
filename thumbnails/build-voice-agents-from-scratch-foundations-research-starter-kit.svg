@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <linearGradient id="brandDiag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9565FF" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#4B9EFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <circle cx="1000" cy="360" r="500" fill="url(#orb)"/>
+
+  <!-- BUNDLE label -->
+  <g transform="translate(80, 180)">
+    <rect width="220" height="32" rx="16" fill="url(#brand)"/>
+    <text x="110" y="21" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#ffffff">BUNDLE · SAVE ₹10,000</text>
+  </g>
+
+  <text x="80" y="290" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#1d1d1f" letter-spacing="-2">Foundations</text>
+  <text x="80" y="368" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#1d1d1f" letter-spacing="-2">+ <tspan fill="url(#brand)">Research Starter</tspan></text>
+
+  <text x="80" y="430" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#6e6e73">Build voice agents AND start your research journey.</text>
+
+  <!-- What's included -->
+  <g transform="translate(80, 480)">
+    <rect width="640" height="120" rx="16" fill="#f5f5f7" stroke="#e8e8ed"/>
+
+    <g transform="translate(24, 24)">
+      <circle cx="14" cy="14" r="14" fill="url(#brandDiag)"/>
+      <text x="14" y="20" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff">1</text>
+      <text x="42" y="14" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1d1d1f">8-Day Foundations Bootcamp</text>
+      <text x="42" y="32" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#6e6e73">ASR · TTS · LLMs · Streaming · Capstone</text>
+    </g>
+
+    <g transform="translate(24, 76)">
+      <circle cx="14" cy="14" r="14" fill="url(#brandDiag)"/>
+      <text x="14" y="20" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff">2</text>
+      <text x="42" y="14" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1d1d1f">Research Starter Kit</text>
+      <text x="42" y="32" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#6e6e73">Roadmap · Paper draft · Reading list · Code template</text>
+    </g>
+  </g>
+
+  <text x="80" y="660" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#86868b">Taught by <tspan font-weight="700" fill="#1d1d1f">Dr. Sreedath Panat</tspan> · MIT PhD</text>
+
+  <!-- Right side: Combo visual -->
+  <g transform="translate(870, 240)">
+    <!-- Mic card -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="180" rx="20" fill="#ffffff" stroke="#e8e8ed" stroke-width="2"/>
+      <circle cx="90" cy="70" r="40" fill="url(#brandDiag)"/>
+      <rect x="82" y="50" width="16" height="26" rx="8" fill="#ffffff"/>
+      <path d="M 72 74 Q 72 88 90 88 Q 108 88 108 74" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <text x="90" y="140" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1d1d1f">FOUNDATIONS</text>
+      <text x="90" y="158" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#6e6e73">8 days · Live</text>
+    </g>
+
+    <!-- Plus sign in middle -->
+    <g transform="translate(195, 75)">
+      <circle cx="15" cy="15" r="20" fill="url(#brand)"/>
+      <line x1="15" y1="6" x2="15" y2="24" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+      <line x1="6" y1="15" x2="24" y2="15" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Doc card -->
+    <g transform="translate(240, 0)">
+      <rect width="180" height="180" rx="20" fill="#ffffff" stroke="#e8e8ed" stroke-width="2"/>
+      <!-- Document icon -->
+      <g transform="translate(50, 30)">
+        <rect width="80" height="80" rx="6" fill="url(#brandDiag)"/>
+        <rect x="14" y="20" width="52" height="5" rx="2.5" fill="#ffffff"/>
+        <rect x="14" y="34" width="52" height="4" rx="2" fill="#ffffff" opacity="0.7"/>
+        <rect x="14" y="46" width="40" height="4" rx="2" fill="#ffffff" opacity="0.7"/>
+        <rect x="14" y="58" width="48" height="4" rx="2" fill="#ffffff" opacity="0.7"/>
+      </g>
+      <text x="90" y="140" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1d1d1f">RESEARCH KIT</text>
+      <text x="90" y="158" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#6e6e73">Async · PDF + Code</text>
+    </g>
+  </g>
+
+  <rect x="0" y="710" width="1280" height="10" fill="url(#brand)"/>
+</svg>

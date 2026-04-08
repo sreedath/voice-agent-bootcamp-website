@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <linearGradient id="brandDiag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B9EFF"/>
+      <stop offset="33%" stop-color="#9565FF"/>
+      <stop offset="66%" stop-color="#ED4FCA"/>
+      <stop offset="100%" stop-color="#F76E35"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ED4FCA" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#9565FF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <circle cx="1000" cy="360" r="500" fill="url(#orb)"/>
+
+  <g transform="translate(80, 180)">
+    <rect width="120" height="32" rx="16" fill="#ffe5d6"/>
+    <text x="60" y="21" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#F76E35">ADD-ON</text>
+  </g>
+
+  <text x="80" y="290" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#1d1d1f" letter-spacing="-2">Research Starter</text>
+  <text x="80" y="368" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="url(#brand)" letter-spacing="-2">Kit.</text>
+
+  <text x="80" y="430" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#6e6e73">A head start on your voice AI research journey</text>
+
+  <!-- Bullet features -->
+  <g transform="translate(80, 480)">
+    <circle cx="8" cy="8" r="4" fill="#9565FF"/>
+    <text x="24" y="13" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Personalised research roadmap (PDF)</text>
+
+    <circle cx="8" cy="42" r="4" fill="#9565FF"/>
+    <text x="24" y="47" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Initial research paper draft</text>
+
+    <circle cx="8" cy="76" r="4" fill="#9565FF"/>
+    <text x="24" y="81" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Curated paper reading list</text>
+
+    <circle cx="8" cy="110" r="4" fill="#9565FF"/>
+    <text x="24" y="115" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1d1d1f">Starter code template</text>
+  </g>
+
+  <text x="80" y="660" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#86868b">Delivered asynchronously · Hit the ground running from day one</text>
+
+  <!-- Right side: Document stack visual -->
+  <g transform="translate(870, 220)">
+    <!-- Back doc -->
+    <g transform="translate(40, 30) rotate(-6 100 130)">
+      <rect width="200" height="260" rx="14" fill="#ffffff" stroke="#e8e8ed" stroke-width="2"/>
+      <rect x="20" y="30" width="120" height="8" rx="4" fill="#e8e8ed"/>
+      <rect x="20" y="50" width="160" height="6" rx="3" fill="#f0f0f3"/>
+      <rect x="20" y="64" width="140" height="6" rx="3" fill="#f0f0f3"/>
+    </g>
+    <!-- Mid doc -->
+    <g transform="translate(60, 20) rotate(3 100 130)">
+      <rect width="200" height="260" rx="14" fill="#ffffff" stroke="#d2d2d7" stroke-width="2"/>
+      <rect x="20" y="30" width="100" height="8" rx="4" fill="#d2d2d7"/>
+      <rect x="20" y="50" width="160" height="6" rx="3" fill="#e8e8ed"/>
+      <rect x="20" y="64" width="140" height="6" rx="3" fill="#e8e8ed"/>
+    </g>
+    <!-- Front doc -->
+    <g transform="translate(80, 0)">
+      <rect width="220" height="280" rx="16" fill="#ffffff" stroke="url(#brandDiag)" stroke-width="3"/>
+      <!-- Header bar with gradient -->
+      <rect x="0" y="0" width="220" height="50" rx="16" fill="url(#brand)"/>
+      <rect x="0" y="34" width="220" height="16" fill="url(#brand)"/>
+      <text x="20" y="32" font-family="-apple-system, system-ui, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">RESEARCH ROADMAP</text>
+
+      <!-- Timeline -->
+      <g transform="translate(30, 80)">
+        <circle cx="6" cy="6" r="6" fill="#4B9EFF"/>
+        <rect x="22" y="2" width="120" height="8" rx="4" fill="#1d1d1f"/>
+        <rect x="22" y="14" width="80" height="5" rx="2.5" fill="#86868b"/>
+
+        <circle cx="6" cy="46" r="6" fill="#9565FF"/>
+        <rect x="22" y="42" width="100" height="8" rx="4" fill="#1d1d1f"/>
+        <rect x="22" y="54" width="90" height="5" rx="2.5" fill="#86868b"/>
+
+        <circle cx="6" cy="86" r="6" fill="#ED4FCA"/>
+        <rect x="22" y="82" width="130" height="8" rx="4" fill="#1d1d1f"/>
+        <rect x="22" y="94" width="70" height="5" rx="2.5" fill="#86868b"/>
+
+        <circle cx="6" cy="126" r="6" fill="#F76E35"/>
+        <rect x="22" y="122" width="110" height="8" rx="4" fill="#1d1d1f"/>
+        <rect x="22" y="134" width="85" height="5" rx="2.5" fill="#86868b"/>
+
+        <!-- vertical line -->
+        <line x1="6" y1="14" x2="6" y2="120" stroke="#e8e8ed" stroke-width="2" stroke-dasharray="3 3"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0" y="710" width="1280" height="10" fill="url(#brand)"/>
+</svg>

@@ -1,0 +1,152 @@
+Voice Agent Engineering Bootcamp
+Build Real-Time Voice Agents from Scratch
+
+Duration: 8 Days
+Session Length: 1.5 Hours per Day
+Format: Live Bootcamp
+Outcome: Build real-time, tool-using voice agents from scratch using ASR, TTS, LLMs, streaming pipelines, and production-style orchestration.
+
+What You Will Learn
+- How modern voice agents actually work under the hood
+- How to build speech-to-text pipelines for voice interfaces
+- How to generate natural voice responses using text-to-speech systems
+- How to connect LLMs as the reasoning engine of a voice agent
+- How to add tool use, memory, and agentic workflows
+- How to design low-latency streaming voice pipelines
+- How to build an end-to-end real-time voice agent in Python
+- How to think about production-grade architecture, latency, and deployment
+
+Bootcamp Syllabus
+
+Day 1 - Introduction to Voice Agents and System Architecture
+- What is a voice agent and how it differs from a chatbot
+- Voicebot vs conversational AI vs real-time voice agent
+- Core architecture of a modern voice agent:
+  - Audio input
+  - Speech-to-Text (ASR)
+  - LLM reasoning
+  - Tool calling and memory
+  - Text-to-Speech (TTS)
+  - Audio output
+- Batch pipeline vs streaming pipeline
+- Key system design challenges: latency, interruptions, turn-taking, and context handling
+- Building a simple end-to-end baseline voice interaction loop
+
+Day 2 - Speech-to-Text (ASR) Foundations and Implementation
+- How automatic speech recognition works conceptually
+- Audio preprocessing, feature extraction, token prediction, and decoding
+- Overview of strong ASR models:
+  - Whisper
+  - faster-whisper
+  - Distil-Whisper
+  - wav2vec2 (high-level understanding)
+- Implementing a local transcription pipeline in Python
+- Recording from microphone and transcribing speech
+- Introduction to chunking audio for practical systems
+- Role of Voice Activity Detection (VAD) in speech pipelines
+
+Day 3 - Text-to-Speech (TTS) and Voice Output Systems
+- How modern TTS systems work and what makes them useful in agents
+- Important trade-offs: latency, voice quality, controllability, and cost
+- Overview of strong TTS systems:
+  - Piper
+  - Coqui TTS
+  - ElevenLabs (comparison)
+  - Other API-based options for modern voice systems
+- Building a text-to-speech pipeline in Python
+- Playing generated speech in real-time
+- Comparing local vs API-based TTS systems
+- Designing natural-sounding responses for voice agents
+
+Day 4 - LLMs as the Brain of a Voice Agent
+- Why ASR + TTS alone is not enough to build a real voice agent
+- Using LLMs as the reasoning and decision-making layer
+- Prompting for voice interactions:
+  - concise responses
+  - spoken-style responses
+  - interruption-friendly responses
+- Connecting transcripts to an LLM pipeline
+- Building a transcript -> LLM -> spoken response loop
+- Adding conversation history and context
+- Designing voice agent personalities and response behaviors
+
+Day 5 - Tool Use, Memory, and Agentic Voice Workflows
+- What makes a voice system an actual agent
+- Tool calling fundamentals for voice agents
+- Adding capabilities such as:
+  - calculator
+  - web search
+  - scheduling
+  - external APIs
+- Short-term vs long-term memory in voice systems
+- Context engineering for voice agents:
+  - what to keep
+  - what to compress
+  - how to control latency and context growth
+- Building a tool-using voice agent pipeline
+- Example: a voice assistant that can answer, search, and take actions
+
+Day 6 - Real-Time Streaming Voice Agents
+- Difference between turn-based and real-time voice systems
+- Core concepts in streaming voice pipelines:
+  - WebSockets
+  - incremental ASR
+  - partial transcripts
+  - streaming TTS
+  - endpointing
+  - turn detection
+- Handling barge-in and user interruptions
+- Buffering and low-latency response design
+- Building a real-time streaming voice loop in Python
+- Understanding where latency actually comes from in production systems
+
+Day 7 - Production-Grade Voice Agent Architecture
+- Designing a robust, modular voice agent system
+- Key components of a production-style architecture:
+  - frontend / microphone interface
+  - backend orchestrator
+  - ASR service
+  - LLM service
+  - tool layer
+  - TTS service
+  - memory layer
+  - logging and observability
+- Fallbacks, retries, and failure handling
+- Cost optimization and model selection strategies
+- Safety, filtering, and guardrails in voice agents
+- Introduction to frameworks and infrastructure options:
+  - Python + WebSockets (from scratch approach)
+  - Pipecat / LiveKit (high-level comparison)
+- Structuring a scalable voice agent codebase
+
+Day 8 - Final Project: Build an End-to-End Voice Agent
+- Building a complete voice agent from scratch
+- End-to-end pipeline:
+  - microphone input
+  - VAD
+  - ASR
+  - LLM reasoning
+  - tool calling
+  - memory
+  - TTS
+  - real-time or near real-time response
+- Final project options:
+  - AI receptionist
+  - meeting assistant
+  - research assistant
+  - desktop voice assistant
+  - scheduling and automation assistant
+- Testing, debugging, and improving the system
+- Deployment options: local, browser-based, and cloud-backed setups
+- How to extend the system into real-world products and monetizable applications
+
+Tools and Models Covered
+- ASR: Whisper, faster-whisper, Distil-Whisper
+- TTS: Piper, Coqui TTS, modern API-based TTS systems
+- VAD: Silero VAD / WebRTC VAD
+- LLM Layer: Claude / GPT-style orchestration / open-source alternatives (conceptual and practical discussion)
+- Infrastructure: Python, WebSockets, modular backend architecture
+- Voice Agent Concepts: streaming, turn detection, memory, tool use, latency optimization
+
+Final Outcome
+By the end of this bootcamp, you will understand how modern voice agents are built at the systems level, and you will be able to implement a real-time, tool-using voice agent from scratch rather than relying only on black-box frameworks.
