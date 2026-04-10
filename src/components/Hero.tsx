@@ -42,10 +42,10 @@ function CountdownTimer() {
   if (expired) return null;
 
   const units = [
-    { value: days, label: "Days" },
-    { value: hours, label: "Hours" },
-    { value: minutes, label: "Min" },
-    { value: seconds, label: "Sec" },
+    { value: days, label: "DAYS" },
+    { value: hours, label: "HRS" },
+    { value: minutes, label: "MIN" },
+    { value: seconds, label: "SEC" },
   ];
 
   return (
@@ -53,47 +53,52 @@ function CountdownTimer() {
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.58 }}
-      className="mt-8 mx-auto max-w-lg"
+      className="mt-8 mx-auto max-w-md"
     >
-      <div className="relative rounded-2xl border border-[#DDD6FE] bg-gradient-to-br from-[#F5F3FF] to-[#EDE9FE] p-5 shadow-sm">
-        {/* Urgency label */}
-        <div className="mb-3 flex items-center justify-center gap-2 text-sm font-semibold text-[#7C3AED]">
-          <span className="relative flex h-2 w-2">
+      <div className="relative rounded-2xl bg-[#f5f5f7] border border-[#e8e8ed] px-8 py-6 shadow-sm">
+        {/* Label */}
+        <div className="mb-5 flex items-center justify-center gap-2 text-[15px] font-semibold text-[#1d1d1f]">
+          <span className="relative flex h-3 w-3">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#7C3AED] opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-[#7C3AED]" />
+            <span className="relative inline-flex h-3 w-3 rounded-full bg-[#7C3AED]" />
           </span>
-          Early Bird — 15% Off Ends In
+          Early-bird ends in
         </div>
 
-        {/* Countdown digits */}
-        <div className="flex items-center justify-center gap-3">
-          {units.map(({ value, label }) => (
-            <div key={label} className="flex flex-col items-center">
-              <span className="flex h-14 w-14 items-center justify-center rounded-xl bg-white text-2xl font-bold text-[#1d1d1f] shadow-sm">
-                {String(value).padStart(2, "0")}
-              </span>
-              <span className="mt-1 text-[10px] font-medium uppercase tracking-wider text-[#86868b]">
-                {label}
-              </span>
+        {/* Countdown digits with colon separators */}
+        <div className="flex items-center justify-center gap-1">
+          {units.map(({ value, label }, i) => (
+            <div key={label} className="flex items-center gap-1">
+              <div className="flex flex-col items-center">
+                <span className="text-[42px] font-bold leading-none text-[#1d1d1f] tracking-tight tabular-nums">
+                  {String(value).padStart(2, "0")}
+                </span>
+                <span className="mt-1.5 text-[11px] font-semibold uppercase tracking-widest text-[#86868b]">
+                  {label}
+                </span>
+              </div>
+              {i < units.length - 1 && (
+                <span className="text-[32px] font-light text-[#d2d2d7] -mt-5 mx-1">:</span>
+              )}
             </div>
           ))}
         </div>
 
-        {/* Coupon code */}
-        <div className="mt-4 flex items-center justify-center gap-2">
-          <span className="text-xs font-medium text-[#86868b] uppercase tracking-wider">Coupon Code:</span>
-          <code className="rounded-lg bg-white px-3 py-1.5 text-sm font-semibold tracking-wide text-[#7C3AED] shadow-sm border border-[#DDD6FE]">
-            {COUPON_CODE}
-          </code>
+        {/* Coupon pill */}
+        <div className="mt-5 flex items-center justify-center">
           <button
             onClick={handleCopy}
-            title={copied ? "Copied!" : "Copy to clipboard"}
-            className="rounded-lg bg-[#7C3AED] p-1.5 text-white transition-all hover:bg-[#6D28D9] active:scale-95"
+            title={copied ? "Copied!" : "Copy coupon code"}
+            className="inline-flex items-center gap-2.5 rounded-full bg-[#EDE9FE] px-5 py-2 transition-all hover:bg-[#DDD6FE] active:scale-[0.98]"
           >
+            <span className="text-sm font-bold tracking-wide text-[#7C3AED]">
+              {COUPON_CODE}
+            </span>
+            <span className="text-sm text-[#6e6e73]">15% off</span>
             {copied ? (
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
             ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#86868b" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
             )}
           </button>
         </div>
