@@ -1,7 +1,106 @@
 "use client";
 
+import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import Waveform from "./Waveform";
+
+const EARLYBIRD_DEADLINE = new Date("2026-04-20T23:59:59+05:30").getTime();
+const COUPON_CODE = "VOICEAGENTEARLYBIRD";
+
+function useCountdown(deadline: number) {
+  const calculate = useCallback(() => {
+    const diff = Math.max(0, deadline - Date.now());
+    return {
+      days: Math.floor(diff / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((diff / (1000 * 60)) % 60),
+      seconds: Math.floor((diff / 1000) % 60),
+      expired: diff <= 0,
+    };
+  }, [deadline]);
+
+  const [time, setTime] = useState(calculate);
+
+  useEffect(() => {
+    const id = setInterval(() => setTime(calculate()), 1000);
+    return () => clearInterval(id);
+  }, [calculate]);
+
+  return time;
+}
+
+function CountdownTimer() {
+  const { days, hours, minutes, seconds, expired } = useCountdown(EARLYBIRD_DEADLINE);
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = async () => {
+    await navigator.clipboard.writeText(COUPON_CODE);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  if (expired) return null;
+
+  const units = [
+    { value: days, label: "Days" },
+    { value: hours, label: "Hours" },
+    { value: minutes, label: "Min" },
+    { value: seconds, label: "Sec" },
+  ];
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.58 }}
+      className="mt-8 mx-auto max-w-lg"
+    >
+      <div className="relative rounded-2xl border border-[#e8dff5] bg-gradient-to-br from-[#f9f5ff] to-[#f0e8ff] p-5 shadow-sm">
+        {/* Urgency label */}
+        <div className="mb-3 flex items-center justify-center gap-2 text-sm font-semibold text-[#9565FF]">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#9565FF] opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-[#9565FF]" />
+          </span>
+          Early Bird — 15% Off Ends In
+        </div>
+
+        {/* Countdown digits */}
+        <div className="flex items-center justify-center gap-3">
+          {units.map(({ value, label }) => (
+            <div key={label} className="flex flex-col items-center">
+              <span className="flex h-14 w-14 items-center justify-center rounded-xl bg-white text-2xl font-bold text-[#1d1d1f] shadow-sm">
+                {String(value).padStart(2, "0")}
+              </span>
+              <span className="mt-1 text-[10px] font-medium uppercase tracking-wider text-[#86868b]">
+                {label}
+              </span>
+            </div>
+          ))}
+        </div>
+
+        {/* Coupon code */}
+        <div className="mt-4 flex items-center justify-center gap-2">
+          <span className="text-xs font-medium text-[#86868b] uppercase tracking-wider">Coupon Code:</span>
+          <code className="rounded-lg bg-white px-3 py-1.5 text-sm font-semibold tracking-wide text-[#9565FF] shadow-sm border border-[#e8dff5]">
+            {COUPON_CODE}
+          </code>
+          <button
+            onClick={handleCopy}
+            title={copied ? "Copied!" : "Copy to clipboard"}
+            className="rounded-lg bg-[#9565FF] p-1.5 text-white transition-all hover:bg-[#7c4dff] active:scale-95"
+          >
+            {copied ? (
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+            )}
+          </button>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
 
 const stats = [
   { value: "8", label: "Live Lectures" },
@@ -87,6 +186,9 @@ export default function Hero() {
         >
           &ldquo;The biggest untapped opportunity in AI is voice, and LLMs will unlock it at scale.&rdquo;
         </motion.p>
+
+        {/* Early Bird Countdown */}
+        <CountdownTimer />
 
         {/* CTAs */}
         <motion.div
