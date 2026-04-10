@@ -58,7 +58,7 @@ export default function InstructorSection() {
                   href="https://www.youtube.com/@vizuara"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#9565FF] hover:underline"
+                  className="text-[#7C3AED] hover:underline"
                 >
                   YouTube channel
                 </a>{" "}
@@ -67,7 +67,7 @@ export default function InstructorSection() {
                   href="https://www.manning.com/books/build-a-deepseek-model-from-scratch"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#9565FF] hover:underline"
+                  className="text-[#7C3AED] hover:underline"
                 >
                   &ldquo;Build DeepSeek from Scratch&rdquo;
                 </a>.
@@ -82,7 +82,7 @@ export default function InstructorSection() {
               <ul className="mt-8 space-y-3">
                 {highlights.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-[#1d1d1f] text-[15px]">
-                    <Award size={18} className="flex-shrink-0 mt-0.5 text-[#ED4FCA]" />
+                    <Award size={18} className="flex-shrink-0 mt-0.5 text-[#D946EF]" />
                     {item}
                   </li>
                 ))}
@@ -93,7 +93,7 @@ export default function InstructorSection() {
                   href="https://in.linkedin.com/in/sreedath-panat"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-[#1d1d1f] bg-white border border-[#e8e8ed] rounded-xl px-4 py-2.5 hover:border-[#9565FF] hover:text-[#9565FF] transition-all"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-[#1d1d1f] bg-white border border-[#e8e8ed] rounded-xl px-4 py-2.5 hover:border-[#7C3AED] hover:text-[#7C3AED] transition-all"
                 >
                   <Link2 size={16} />
                   LinkedIn (115K+)
@@ -102,7 +102,7 @@ export default function InstructorSection() {
                   href="https://www.youtube.com/@vizuara"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-[#1d1d1f] bg-white border border-[#e8e8ed] rounded-xl px-4 py-2.5 hover:border-[#9565FF] hover:text-[#9565FF] transition-all"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-[#1d1d1f] bg-white border border-[#e8e8ed] rounded-xl px-4 py-2.5 hover:border-[#7C3AED] hover:text-[#7C3AED] transition-all"
                 >
                   <Play size={16} />
                   YouTube (200K+)
@@ -111,7 +111,7 @@ export default function InstructorSection() {
                   href="https://scholar.google.com/citations?user=qq8OirYAAAAJ&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-[#1d1d1f] bg-white border border-[#e8e8ed] rounded-xl px-4 py-2.5 hover:border-[#9565FF] hover:text-[#9565FF] transition-all"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-[#1d1d1f] bg-white border border-[#e8e8ed] rounded-xl px-4 py-2.5 hover:border-[#7C3AED] hover:text-[#7C3AED] transition-all"
                 >
                   <GraduationCap size={16} />
                   Google Scholar

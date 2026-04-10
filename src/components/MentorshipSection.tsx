@@ -9,14 +9,14 @@ const mentorshipFeatures = [
     title: "Target: Publishable Paper",
     description:
       "The goal is a research paper. Your mentors guide you from topic selection through experiments to a publication-ready manuscript.",
-    color: "bg-[#4B9EFF]",
+    color: "bg-[#4F46E5]",
   },
   {
     icon: BookOpen,
     title: "Every Step Guided",
     description:
       "Literature review, experiment design, ablation studies, writing — your mentors walk you through every step of the research process so you never feel stuck.",
-    color: "bg-[#9565FF]",
+    color: "bg-[#7C3AED]",
   },
   {
     icon: Compass,
@@ -30,14 +30,14 @@ const mentorshipFeatures = [
     title: "Paper Reading Guidance",
     description:
       "Curated reading lists, paper discussion, and feedback on how to extract and apply insights from the literature.",
-    color: "bg-[#F76E35]",
+    color: "bg-[#F43F5E]",
   },
   {
     icon: ListChecks,
     title: "Actionable Next Steps",
     description:
       "Every interaction ends with clear deliverables and deadlines. You always know exactly what to do next.",
-    color: "bg-[#ED4FCA]",
+    color: "bg-[#D946EF]",
   },
 ] as const;
 
@@ -57,7 +57,7 @@ export default function MentorshipSection() {
                 href="https://research.vizuara.ai/publications"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#9565FF] hover:underline"
+                className="text-[#7C3AED] hover:underline"
               >
                 published research
               </a>.

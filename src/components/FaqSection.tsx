@@ -23,10 +23,10 @@ function FaqItem({
         onClick={onToggle}
         className="w-full flex items-center justify-between py-5 text-left cursor-pointer group"
       >
-        <span className="text-[15px] font-semibold text-[#1d1d1f] pr-4 group-hover:text-[#9565FF] transition-colors">
+        <span className="text-[15px] font-semibold text-[#1d1d1f] pr-4 group-hover:text-[#7C3AED] transition-colors">
           {question}
         </span>
-        <span className="shrink-0 text-[#86868b] group-hover:text-[#9565FF] transition-colors">
+        <span className="shrink-0 text-[#86868b] group-hover:text-[#7C3AED] transition-colors">
           {isOpen ? <Minus size={18} /> : <Plus size={18} />}
         </span>
       </button>
@@ -64,7 +64,7 @@ export default function FaqSection() {
           {faqGroups.map((group, gi) => (
             <AnimateIn key={group.category} delay={gi * 0.06}>
               <div>
-                <h3 className="text-[13px] font-bold uppercase tracking-widest text-[#9565FF] mb-3">
+                <h3 className="text-[13px] font-bold uppercase tracking-widest text-[#7C3AED] mb-3">
                   {group.category}
                 </h3>
                 <div className="bg-[#f5f5f7] rounded-[18px] border border-[#e8e8ed] px-6 md:px-8">

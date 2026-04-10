@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --ai-blue: #4B9EFF;
-  --ai-violet: #9565FF;
-  --ai-pink: #ED4FCA;
-  --ai-orange: #F76E35;
-  --ai-gradient: linear-gradient(to right, #4B9EFF 0%, #9565FF 30%, #ED4FCA 65%, #F76E35 100%);
-  --ai-gradient-diag: linear-gradient(135deg, #4B9EFF 0%, #9565FF 30%, #ED4FCA 65%, #F76E35 100%);
-  --pink: #9565FF;
-  --pink-hover: #7c4ee0;
+  --ai-blue: #4F46E5;
+  --ai-violet: #7C3AED;
+  --ai-pink: #D946EF;
+  --ai-orange: #F43F5E;
+  --ai-gradient: linear-gradient(to right, #4F46E5 0%, #7C3AED 30%, #D946EF 65%, #F43F5E 100%);
+  --ai-gradient-diag: linear-gradient(135deg, #4F46E5 0%, #7C3AED 30%, #D946EF 65%, #F43F5E 100%);
+  --pink: #7C3AED;
+  --pink-hover: #6D28D9;
   --dark: #1d1d1f;
   --text: #1d1d1f;
   --muted: #6e6e73;
@@ -57,7 +57,7 @@ html {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ai-violet);
-  background: rgba(149, 101, 255, 0.08);
+  background: rgba(124, 58, 237, 0.08);
   padding: 0.3rem 0.8rem;
   border-radius: 980px;
   margin-bottom: 0.75rem;
@@ -107,7 +107,7 @@ html {
 
 .card:hover {
   border-color: var(--ai-violet);
-  box-shadow: 0 4px 24px rgba(149, 101, 255, 0.1);
+  box-shadow: 0 4px 24px rgba(124, 58, 237, 0.1);
   transform: translateY(-2px);
 }
 
@@ -148,7 +148,7 @@ html {
 
 .btn-primary:hover {
   opacity: 0.88;
-  box-shadow: 0 6px 24px rgba(149, 101, 255, 0.4);
+  box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
   transform: translateY(-1px);
 }
 
@@ -254,11 +254,11 @@ html {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(149, 101, 255, 0.25);
+  background: rgba(124, 58, 237, 0.25);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(149, 101, 255, 0.4);
+  background: rgba(124, 58, 237, 0.4);
 }
 
 /* Hero word animation */

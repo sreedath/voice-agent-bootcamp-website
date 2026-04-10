@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 const barHeights = [12, 20, 28, 16, 24, 32, 18, 26, 14, 22, 30, 10, 24, 18, 28, 14, 22, 30, 16, 26];
 const colors = [
-  "from-[#4B9EFF] to-[#9565FF]",
-  "from-[#9565FF] to-[#ED4FCA]",
-  "from-[#ED4FCA] to-[#F76E35]",
-  "from-[#4B9EFF] to-[#ED4FCA]",
-  "from-[#9565FF] to-[#F76E35]",
+  "from-[#4F46E5] to-[#7C3AED]",
+  "from-[#7C3AED] to-[#D946EF]",
+  "from-[#D946EF] to-[#F43F5E]",
+  "from-[#4F46E5] to-[#D946EF]",
+  "from-[#7C3AED] to-[#F43F5E]",
 ];
 
 export default function Waveform() {

@@ -10,7 +10,7 @@ const quotes = [
     title: "CEO, Meta",
     quote:
       "Voice is going to be a way more natural way of interacting with AI than text.",
-    color: "#4B9EFF",
+    color: "#4F46E5",
     photo: "/leaders/zuckerberg.jpg",
   },
   {
@@ -18,7 +18,7 @@ const quotes = [
     title: "CEO, Google",
     quote:
       "Interacting with Gemini should feel conversational and intuitive — an in-depth conversation using your voice.",
-    color: "#9565FF",
+    color: "#7C3AED",
     photo: "/leaders/pichai.jpg",
   },
   {
@@ -26,7 +26,7 @@ const quotes = [
     title: "CEO, Microsoft AI",
     quote:
       "Conversational AI is the next web browser.",
-    color: "#ED4FCA",
+    color: "#D946EF",
     photo: "/leaders/suleyman.jpg",
   },
   {
@@ -34,7 +34,7 @@ const quotes = [
     title: "CEO, NVIDIA",
     quote:
       "Digital humans will revolutionize industries. Interacting with computers will become as natural as interacting with humans.",
-    color: "#F76E35",
+    color: "#F43F5E",
     photo: "/leaders/huang.jpg",
   },
   {
@@ -42,7 +42,7 @@ const quotes = [
     title: "Partner, a16z",
     quote:
       "For consumers, voice will be the first — and perhaps the primary — way people interact with AI.",
-    color: "#9565FF",
+    color: "#7C3AED",
     photo: "/leaders/moore.png",
   },
   {
@@ -50,7 +50,7 @@ const quotes = [
     title: "CEO, ElevenLabs",
     quote:
       "Voice is the next interface for AI.",
-    color: "#ED4FCA",
+    color: "#D946EF",
     photo: "/leaders/staniszewski.webp",
   },
 ] as const;

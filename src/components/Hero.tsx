@@ -55,12 +55,12 @@ function CountdownTimer() {
       transition={{ duration: 0.6, delay: 0.58 }}
       className="mt-8 mx-auto max-w-lg"
     >
-      <div className="relative rounded-2xl border border-[#e8dff5] bg-gradient-to-br from-[#f9f5ff] to-[#f0e8ff] p-5 shadow-sm">
+      <div className="relative rounded-2xl border border-[#DDD6FE] bg-gradient-to-br from-[#F5F3FF] to-[#EDE9FE] p-5 shadow-sm">
         {/* Urgency label */}
-        <div className="mb-3 flex items-center justify-center gap-2 text-sm font-semibold text-[#9565FF]">
+        <div className="mb-3 flex items-center justify-center gap-2 text-sm font-semibold text-[#7C3AED]">
           <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#9565FF] opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-[#9565FF]" />
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#7C3AED] opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-[#7C3AED]" />
           </span>
           Early Bird — 15% Off Ends In
         </div>
@@ -82,13 +82,13 @@ function CountdownTimer() {
         {/* Coupon code */}
         <div className="mt-4 flex items-center justify-center gap-2">
           <span className="text-xs font-medium text-[#86868b] uppercase tracking-wider">Coupon Code:</span>
-          <code className="rounded-lg bg-white px-3 py-1.5 text-sm font-semibold tracking-wide text-[#9565FF] shadow-sm border border-[#e8dff5]">
+          <code className="rounded-lg bg-white px-3 py-1.5 text-sm font-semibold tracking-wide text-[#7C3AED] shadow-sm border border-[#DDD6FE]">
             {COUPON_CODE}
           </code>
           <button
             onClick={handleCopy}
             title={copied ? "Copied!" : "Copy to clipboard"}
-            className="rounded-lg bg-[#9565FF] p-1.5 text-white transition-all hover:bg-[#7c4dff] active:scale-95"
+            className="rounded-lg bg-[#7C3AED] p-1.5 text-white transition-all hover:bg-[#6D28D9] active:scale-95"
           >
             {copied ? (
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
@@ -161,10 +161,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.53 }}
           className="mt-4 inline-flex flex-wrap items-center justify-center gap-2 text-sm font-semibold"
         >
-          <span className="px-3 py-1.5 rounded-full bg-[#ede5ff] text-[#9565FF]">
+          <span className="px-3 py-1.5 rounded-full bg-[#EDE9FE] text-[#7C3AED]">
             Starts April 28, 2026
           </span>
-          <span className="px-3 py-1.5 rounded-full bg-[#ede5ff] text-[#9565FF]">
+          <span className="px-3 py-1.5 rounded-full bg-[#EDE9FE] text-[#7C3AED]">
             Every Tuesday · 2 PM IST
           </span>
         </motion.div>

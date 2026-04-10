@@ -12,7 +12,7 @@ export default function BackgroundEffects() {
           left: "50%",
           transform: "translateX(-50%)",
           background:
-            "radial-gradient(circle, rgba(149,101,255,0.5) 0%, rgba(75,158,255,0.3) 40%, rgba(237,79,202,0.15) 70%, transparent 100%)",
+            "radial-gradient(circle, rgba(124,58,237,0.5) 0%, rgba(79,70,229,0.3) 40%, rgba(217,70,239,0.15) 70%, transparent 100%)",
         }}
         animate={{
           scale: [1, 1.05, 0.98, 1],

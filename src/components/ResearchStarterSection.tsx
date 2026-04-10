@@ -149,7 +149,7 @@ function PaperPreview() {
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center gap-2 text-xs font-semibold px-4 py-2.5 rounded-xl text-white transition-all hover:opacity-90"
-        style={{ background: "linear-gradient(135deg, #3B82F6, #6366F1)" }}
+        style={{ background: "linear-gradient(135deg, #4F46E5, #6366F1)" }}
       >
         <ExternalLink size={12} /> View Full Sample Paper (PDF)
       </a>

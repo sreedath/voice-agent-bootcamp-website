@@ -22,7 +22,7 @@ function OfferingCard({ offering }: { readonly offering: (typeof offerings)[numb
     >
       {/* Tag */}
       {offering.tag && (
-        <span className="absolute -top-3 right-6 px-3 py-1 text-[10px] font-bold uppercase tracking-wider rounded-full bg-[#ede5ff] text-[#9565FF] border border-[#d4c4ff]">
+        <span className="absolute -top-3 right-6 px-3 py-1 text-[10px] font-bold uppercase tracking-wider rounded-full bg-[#EDE9FE] text-[#7C3AED] border border-[#DDD6FE]">
           {offering.tag}
         </span>
       )}
@@ -31,7 +31,7 @@ function OfferingCard({ offering }: { readonly offering: (typeof offerings)[numb
       <div
         className={`absolute top-4 right-4 w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${
           selected
-            ? "border-[#9565FF] bg-[#9565FF]"
+            ? "border-[#7C3AED] bg-[#7C3AED]"
             : "border-[#d2d2d7] bg-white"
         }`}
       >
@@ -42,8 +42,8 @@ function OfferingCard({ offering }: { readonly offering: (typeof offerings)[numb
       <span
         className={`inline-block text-[11px] font-bold uppercase tracking-widest mb-3 ${
           offering.type === "base"
-            ? "text-[#9565FF]"
-            : "text-[#F76E35]"
+            ? "text-[#7C3AED]"
+            : "text-[#F43F5E]"
         }`}
       >
         {offering.type === "base" ? "Core Program" : "Add-on"}
@@ -67,7 +67,7 @@ function OfferingCard({ offering }: { readonly offering: (typeof offerings)[numb
           setExpanded((prev) => !prev);
         }}
       >
-        <span className="inline-flex items-center gap-1 text-xs font-medium text-[#9565FF] cursor-pointer hover:underline">
+        <span className="inline-flex items-center gap-1 text-xs font-medium text-[#7C3AED] cursor-pointer hover:underline">
           {offering.includes.length} items included
           <ChevronDown
             size={12}
@@ -87,7 +87,7 @@ function OfferingCard({ offering }: { readonly offering: (typeof offerings)[numb
           >
             {offering.includes.map((item) => (
               <li key={item} className="flex items-start gap-2 text-sm text-[#6e6e73]">
-                <Check size={14} className="mt-0.5 flex-shrink-0 text-[#9565FF]" />
+                <Check size={14} className="mt-0.5 flex-shrink-0 text-[#7C3AED]" />
                 <span>{item}</span>
               </li>
             ))}
@@ -155,7 +155,7 @@ function BundleCard({
         <div
           className={`flex-shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${
             isExactMatch
-              ? "border-[#9565FF] bg-[#9565FF]"
+              ? "border-[#7C3AED] bg-[#7C3AED]"
               : "border-[#d2d2d7] bg-white"
           }`}
         >
@@ -218,7 +218,7 @@ export default function PricingSection() {
           <AnimateIn delay={0.3}>
             <div className="sticky-price-bar">
               <div className="flex items-center gap-2.5 mb-4">
-                <ShoppingCart size={18} className="text-[#9565FF]" />
+                <ShoppingCart size={18} className="text-[#7C3AED]" />
                 <h3 className="text-base font-bold text-[#1d1d1f]">Your Workshop</h3>
               </div>
 
@@ -292,7 +292,7 @@ export default function PricingSection() {
                   rel={checkoutUrl ? "noopener noreferrer" : undefined}
                   className={`flex items-center justify-center w-full gap-2 py-4 text-base font-bold rounded-[980px] transition-all ${
                     items.length > 0
-                      ? "bg-[#9565FF] text-white hover:bg-[#7c4ee0] hover:shadow-xl active:scale-[0.98]"
+                      ? "bg-[#7C3AED] text-white hover:bg-[#6D28D9] hover:shadow-xl active:scale-[0.98]"
                       : "bg-[#e8e8ed] text-[#86868b] cursor-not-allowed"
                   }`}
                 >

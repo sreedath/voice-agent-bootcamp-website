@@ -59,7 +59,7 @@ export default function WhoSection() {
 
               {/* Interview question card */}
               <div className="mt-8 rounded-[18px] border border-[#e8e8ed] bg-[#f5f5f7] p-6">
-                <p className="text-xs font-bold uppercase tracking-widest text-[#9565FF] mb-2">
+                <p className="text-xs font-bold uppercase tracking-widest text-[#7C3AED] mb-2">
                   Voice AI interview question:
                 </p>
                 <p className="text-[15px] text-[#1d1d1f] italic leading-relaxed">
@@ -78,7 +78,7 @@ export default function WhoSection() {
                     key={item}
                     className="flex items-start gap-3 text-[15px] text-[#1d1d1f] leading-relaxed"
                   >
-                    <CheckCircle size={18} className="flex-shrink-0 mt-0.5 text-[#ED4FCA]" />
+                    <CheckCircle size={18} className="flex-shrink-0 mt-0.5 text-[#D946EF]" />
                     {item}
                   </li>
                 ))}

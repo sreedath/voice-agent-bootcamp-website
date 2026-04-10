@@ -6,7 +6,7 @@ import AnimateIn from "./AnimateIn";
 
 function DayCard({ data }: { data: (typeof curriculum)[number] }) {
   return (
-    <div className="rounded-[18px] bg-white border border-[#e8e8ed] overflow-hidden hover:border-[#9565FF] hover:shadow-[0_4px_24px_rgba(149,101,255,0.1)] transition-all duration-300">
+    <div className="rounded-[18px] bg-white border border-[#e8e8ed] overflow-hidden hover:border-[#7C3AED] hover:shadow-[0_4px_24px_rgba(124,58,237,0.1)] transition-all duration-300">
       <div className="flex items-start gap-4 p-6 pb-0">
         <div
           className="shrink-0 w-11 h-11 rounded-xl flex items-center justify-center text-white font-bold text-sm"
@@ -28,7 +28,7 @@ function DayCard({ data }: { data: (typeof curriculum)[number] }) {
             key={topic}
             className="flex items-start gap-2.5 text-sm text-[#6e6e73] leading-relaxed"
           >
-            <Check className="shrink-0 w-4 h-4 text-[#9565FF] mt-0.5" />
+            <Check className="shrink-0 w-4 h-4 text-[#7C3AED] mt-0.5" />
             {topic}
           </li>
         ))}

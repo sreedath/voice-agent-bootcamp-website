@@ -76,7 +76,7 @@ export default function Navbar() {
               >
                 {formatPrice(total)}
               </span>
-              <span className="absolute -top-1 -right-1 w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#9565FF] text-white text-[10px] font-bold">
+              <span className="absolute -top-1 -right-1 w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#7C3AED] text-white text-[10px] font-bold">
                 {items.length}
               </span>
             </a>
@@ -99,7 +99,7 @@ export default function Navbar() {
               className="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/[0.05] text-[13px]"
             >
               <ShoppingCart size={14} className="text-[#6e6e73]" />
-              <span className="absolute -top-1 -right-1 w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#9565FF] text-white text-[10px] font-bold">
+              <span className="absolute -top-1 -right-1 w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#7C3AED] text-white text-[10px] font-bold">
                 {items.length}
               </span>
             </a>

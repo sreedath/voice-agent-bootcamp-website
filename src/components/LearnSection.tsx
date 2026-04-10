@@ -4,14 +4,14 @@ import { learnItems } from "@/lib/data";
 import AnimateIn from "./AnimateIn";
 
 const dotColors = [
-  "bg-[#4B9EFF]",
-  "bg-[#9565FF]",
-  "bg-[#ED4FCA]",
-  "bg-[#F76E35]",
-  "bg-[#4B9EFF]",
-  "bg-[#9565FF]",
-  "bg-[#ED4FCA]",
-  "bg-[#F76E35]",
+  "bg-[#4F46E5]",
+  "bg-[#7C3AED]",
+  "bg-[#D946EF]",
+  "bg-[#F43F5E]",
+  "bg-[#4F46E5]",
+  "bg-[#7C3AED]",
+  "bg-[#D946EF]",
+  "bg-[#F43F5E]",
 ];
 
 export default function LearnSection() {

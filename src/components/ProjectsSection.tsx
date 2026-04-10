@@ -4,10 +4,10 @@ import { projects } from "@/lib/data";
 import AnimateIn from "./AnimateIn";
 
 const iconBgs = [
-  "bg-[rgba(75,158,255,0.1)] text-[#4B9EFF]",
-  "bg-[rgba(149,101,255,0.1)] text-[#9565FF]",
-  "bg-[rgba(237,79,202,0.1)] text-[#ED4FCA]",
-  "bg-[rgba(247,110,53,0.1)] text-[#F76E35]",
+  "bg-[rgba(75,158,255,0.1)] text-[#4F46E5]",
+  "bg-[rgba(124,58,237,0.1)] text-[#7C3AED]",
+  "bg-[rgba(237,79,202,0.1)] text-[#D946EF]",
+  "bg-[rgba(247,110,53,0.1)] text-[#F43F5E]",
   "bg-[rgba(56,161,105,0.1)] text-[#38a169]",
 ];
 

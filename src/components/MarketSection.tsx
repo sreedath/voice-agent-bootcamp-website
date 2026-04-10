@@ -55,12 +55,12 @@ const chartHeight = 220;
 const barWidth = 48;
 
 const fundingRounds = [
-  { company: "ElevenLabs", amount: "$11B valuation", color: "#9565FF" },
-  { company: "Deepgram", amount: "$1.3B valuation", color: "#4B9EFF" },
-  { company: "LiveKit", amount: "$1B valuation", color: "#ED4FCA" },
-  { company: "Cartesia", amount: "$86M raised", color: "#F76E35" },
+  { company: "ElevenLabs", amount: "$11B valuation", color: "#7C3AED" },
+  { company: "Deepgram", amount: "$1.3B valuation", color: "#4F46E5" },
+  { company: "LiveKit", amount: "$1B valuation", color: "#D946EF" },
+  { company: "Cartesia", amount: "$86M raised", color: "#F43F5E" },
   { company: "Bland.ai", amount: "$65M raised", color: "#38a169" },
-  { company: "Vapi", amount: "$25M raised", color: "#9565FF" },
+  { company: "Vapi", amount: "$25M raised", color: "#7C3AED" },
 ];
 
 function MarketChart() {
@@ -103,7 +103,7 @@ function MarketChart() {
               >
                 <span
                   className={`absolute -top-6 left-1/2 -translate-x-1/2 text-[11px] font-semibold whitespace-nowrap ${
-                    i >= 4 ? "text-[#9565FF]" : "text-[#86868b]"
+                    i >= 4 ? "text-[#7C3AED]" : "text-[#86868b]"
                   }`}
                 >
                   {d.label}
@@ -123,7 +123,7 @@ function MarketChart() {
           href="https://www.grandviewresearch.com/industry-analysis/ai-voice-generators-market-report"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#9565FF] hover:underline"
+          className="text-[#7C3AED] hover:underline"
         >
           Grand View Research
         </a>
@@ -132,7 +132,7 @@ function MarketChart() {
           href="https://www.marketsandmarkets.com/Market-Reports/ai-voice-generator-market-144271159.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#9565FF] hover:underline"
+          className="text-[#7C3AED] hover:underline"
         >
           Markets and Markets
         </a>
@@ -186,7 +186,7 @@ function FundingTracker() {
           href="https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#9565FF] hover:underline"
+          className="text-[#7C3AED] hover:underline"
         >
           TechCrunch
         </a>
@@ -195,7 +195,7 @@ function FundingTracker() {
           href="https://news.crunchbase.com/venture/voice-ai-startups-global-investment/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#9565FF] hover:underline"
+          className="text-[#7C3AED] hover:underline"
         >
           Crunchbase
         </a>
@@ -230,7 +230,7 @@ export default function MarketSection() {
             return (
               <AnimateIn key={stat.value} delay={i * 0.06}>
                 <div className="card h-full">
-                  <Icon size={20} className="text-[#9565FF] mb-3" />
+                  <Icon size={20} className="text-[#7C3AED] mb-3" />
                   <p className="text-2xl font-bold text-[#1d1d1f]">{stat.value}</p>
                   <p className="mt-1 text-sm text-[#6e6e73] leading-relaxed">
                     {stat.label}
@@ -239,7 +239,7 @@ export default function MarketSection() {
                     href={stat.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 inline-block text-[11px] text-[#9565FF] hover:underline"
+                    className="mt-2 inline-block text-[11px] text-[#7C3AED] hover:underline"
                   >
                     {stat.source} &rsaquo;
                   </a>
@@ -273,7 +273,7 @@ export default function MarketSection() {
                 href="https://www.gartner.com/en/newsroom/press-releases/2025-03-05-gartner-predicts-agentic-ai-will-autonomously-resolve-80-percent-of-common-customer-service-issues-without-human-intervention-by-20290"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#9565FF] hover:underline"
+                className="text-[#7C3AED] hover:underline"
               >
                 Gartner, March 2025
               </a>
