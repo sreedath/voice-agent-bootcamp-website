@@ -79,6 +79,16 @@ export default function InstructorSection() {
                 from scratch — no hand-waving.
               </p>
 
+              <p className="mt-4 text-[#6e6e73] leading-relaxed text-base">
+                Have questions? Reach out at{" "}
+                <a
+                  href="mailto:sreedath@vizuara.com"
+                  className="text-[#7C3AED] hover:underline"
+                >
+                  sreedath@vizuara.com
+                </a>
+              </p>
+
               <ul className="mt-8 space-y-3">
                 {highlights.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-[#1d1d1f] text-[15px]">
