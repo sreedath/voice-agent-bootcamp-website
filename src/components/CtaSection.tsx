@@ -29,7 +29,7 @@ export default function CtaSection() {
                 <ChevronRight size={18} />
               </a>
               <p className="mt-4 text-sm text-[#86868b]">
-                Starts April 28, 2026 &middot; Every Tuesday 2 PM IST &middot; 100% Hands-On
+                Starts May 5, 2026 &middot; Every Tuesday 2 PM IST &middot; 100% Hands-On
               </p>
             </div>
           </div>

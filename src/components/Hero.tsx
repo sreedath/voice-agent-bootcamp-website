@@ -167,7 +167,7 @@ export default function Hero() {
           className="mt-4 inline-flex flex-wrap items-center justify-center gap-2 text-sm font-semibold"
         >
           <span className="px-3 py-1.5 rounded-full bg-[#EDE9FE] text-[#7C3AED]">
-            Starts April 28, 2026
+            Starts May 5, 2026
           </span>
           <span className="px-3 py-1.5 rounded-full bg-[#EDE9FE] text-[#7C3AED]">
             Every Tuesday · 2 PM IST

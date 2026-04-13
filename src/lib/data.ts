@@ -256,7 +256,7 @@ export const faqGroups: FaqGroup[] = [
       {
         question: "Are sessions live or recorded?",
         answer:
-          "All sessions are delivered live over Zoom. The bootcamp runs for 8 weeks starting April 28, 2026, with one lecture every Tuesday at 2 PM IST (2-3 hours each). You can ask questions in real-time and get hands-on guidance from the instructor.",
+          "All sessions are delivered live over Zoom. The bootcamp runs for 8 weeks starting May 5, 2026, with one lecture every Tuesday at 2 PM IST (2-3 hours each). You can ask questions in real-time and get hands-on guidance from the instructor.",
       },
       {
         question: "Will I get recordings of the sessions?",
@@ -271,7 +271,7 @@ export const faqGroups: FaqGroup[] = [
       {
         question: "Is EMI available?",
         answer:
-          "Yes, EMI options are available at checkout. Please note that all sales are final — no refunds.",
+          "Yes, bank-mediated EMI options are available at checkout via Razorpay. Please note that all sales are final — no refunds.",
       },
     ],
   },
