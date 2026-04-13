@@ -124,7 +124,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className="label-pill">8-Day Live Bootcamp</span>
+          <span className="label-pill">8-Week Live Bootcamp</span>
         </motion.div>
 
         {/* Waveform */}
